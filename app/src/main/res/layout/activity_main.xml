@@ -1,0 +1,19 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_expandable"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:drawableRight="@mipmap/arrowright"
+        android:drawableTint="@color/white"
+        android:text="Go to Expandable ListView" />
+
+    <ListView
+        android:id="@+id/custom_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
